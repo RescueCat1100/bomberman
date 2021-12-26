@@ -4,11 +4,11 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
 /**
- * Tiếp nhận và xử lý các sự kiện nhập từ bàn phím
+ * Receive and solve all the keyboard events ever !!! 
  */
 public class Keyboard implements KeyListener {
 	
-	private boolean[] keys = new boolean[120]; //120 is enough to this game
+	private boolean[] keys = new boolean[120]; //is 120 even enough tho? i guess yes
 	public boolean up, down, left, right, space;
 	
 	public void update() {
